@@ -1,0 +1,130 @@
+html
+{
+
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+/*Utilizamos unidades absolutas y relativas es bueno recordarlo*/
+
+body
+{
+    font-size: 1.6em;
+    background-color: #19899c;
+}
+
+*, *:before, *:after
+{  /*Todos los campos son afectados antes y despues de renderizar*/
+    box-sizing: inherit;
+}
+
+header
+{
+    padding: 3em 0;
+}
+
+header h1
+{
+    text-align: center;
+    color: #84e6c2;
+    text-shadow: 2px 1px 1px black;
+    font-size: 6rem;
+}
+
+header p
+{
+    color: #182923;
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+header a
+{
+    text-decoration: none;
+    color: #e5fff6;
+    text-align: center;
+}
+
+.DOM
+{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.DOM h2
+{
+    color: #fff;
+    text-align: center;
+}
+
+
+.DOM nav a
+{
+    color: rgb(106, 229, 106);
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.DOM p
+{
+    color: #07080b;
+    font-size: 20px;
+}
+
+.DOM #formulario
+{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.DOM #formulario input{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.DOM #formulario input[type="submit"]
+{
+    background-color: #0e43b5;
+    font-weight: 700px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+}
+.alerta{
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.alerta.Error{
+    background-color: rgb(162, 0, 0);
+}
+
+.alerta.Exito{
+    background-color: rgb(7,145,7);
+}
+
+
+
+
+.mystyle{
+    letter-spacing:5px; 
+    font-family: Jetbrains Mono;
+     background-color: rgb(119, 255, 255);
+      font-size:25px;
+       border:2px solid black;
+        border-radius:5px;
+        justify-content: center;
+        text-align: center;
+        height: 40px;
+        text-shadow: 6px 4px 4px rgb(0, 51, 11);
+        box-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
